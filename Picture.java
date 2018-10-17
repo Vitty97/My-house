@@ -70,7 +70,15 @@ public class Picture
 
         
     }
-
+    
+    /**
+     * Atardece  
+     */
+    public void atardecer()
+    {   
+        sun.slowMoveVertical(140);
+    }
+            
     /**
      * Change this picture to black/white display
      */
